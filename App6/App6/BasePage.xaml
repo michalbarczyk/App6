@@ -5,7 +5,4 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="App6.BasePage">
-    <NavigationPage.TitleView>
-        <Label Text="THIS IS TITLE" HorizontalTextAlignment="Center" TextColor="Azure"/>
-    </NavigationPage.TitleView>
 </ContentPage>

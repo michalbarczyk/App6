@@ -6,8 +6,13 @@
              mc:Ignorable="d"
              x:Class="App6.ExtendedTitleBarView">
   <ContentView.Content>
-      <StackLayout BackgroundColor="#2196F3">
-          <Label Text="Extended titlebar" TextColor="Azure" HorizontalTextAlignment="Center"/>
+      <StackLayout BackgroundColor="#2196F3" HeightRequest="70">
+          <Label Text="Extended titlebar"
+                 TextColor="Azure" 
+                 FontAttributes="Italic"
+                 FontSize="Medium"
+                 HorizontalTextAlignment="Center"
+                 VerticalTextAlignment="Center"/>
       </StackLayout>
   </ContentView.Content>
 </ContentView>

@@ -10,7 +10,7 @@ namespace App6
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new BasePage(new MainView(), "THIS IS TITLE"));
+            MainPage = new NavigationPage(new BasePage(new MainView(), "Title of main view", new ExtendedTitleBarView()));
         }
 
         protected override void OnStart()

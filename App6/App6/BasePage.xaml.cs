@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System.Collections.Generic;
+using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Xamarin.Forms;
 
@@ -50,6 +51,7 @@ namespace App6
             }
 
             Content = layout;
+
         }
     }
 }
